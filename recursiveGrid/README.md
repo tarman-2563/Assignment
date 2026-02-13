@@ -23,6 +23,9 @@ It's pretty satisfying to see the chain reactions when you click around!
 
 ## Screenshot
 
+<img width="1080" height="709" alt="image" src="https://github.com/user-attachments/assets/4914b941-339e-4b01-ba2a-4bf5463dc782" />
+
+
 
 ## Tech Stack
 
@@ -45,12 +48,4 @@ npm run dev
 npm run build
 ```
 
-## How I Built It
 
-I kept it simple - just React hooks for state management and Tailwind for styling. The main logic is in `App.jsx` where I handle all the click interactions and ripple effects. Each box is a separate component that changes its appearance based on whether the number is even, odd, or locked.
-
-The trickiest part was making sure the ripple effects don't crash when you're at the edge of the grid. Had to add some checks to prevent trying to update boxes that don't exist.
-
----
-
-Made as part of a coding challenge. Pretty fun to build!
