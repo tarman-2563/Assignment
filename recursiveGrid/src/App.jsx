@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import GridBox from "./components/GridBox"
+import GridBox from "./components/GridBox.jsx"
 
 const App = () => {
 
